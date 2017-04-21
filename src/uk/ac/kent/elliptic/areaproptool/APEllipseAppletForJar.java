@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -54,7 +54,7 @@ import javax.swing.JPanel;
 import javax.swing.UIManager;
 import javax.swing.border.Border;
 
-import elliptic.areaproptool.SwitchBoardPanel.Curves;
+import uk.ac.kent.elliptic.areaproptool.SwitchBoardPanel.Curves;
 
 import jargs.gnu.CmdLineParser;  // this command-line parser by Steve Purcell (2005) is available at http://jargs.sourceforge.net
 
@@ -91,7 +91,7 @@ public class APEllipseAppletForJar  extends JFrame implements ActionListener {
 		
 		BufferedImage icon=null;
 		try {
-			icon = ImageIO.read(getClass().getResourceAsStream("/elliptic/areaproptool/eulerAPE.png"));
+			icon = ImageIO.read(getClass().getResourceAsStream("/uk/ac/kent/elliptic/areaproptool/eulerAPE.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.Color;
 import java.awt.Polygon;

@@ -33,7 +33,7 @@
  
 
 
-package euler.comparators;
+package uk.ac.kent.euler.comparators;
 
 import java.util.*;
 

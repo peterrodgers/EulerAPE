@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.geom.Point2D;
 import java.io.BufferedWriter;
@@ -43,7 +43,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import elliptic.areaproptool.EllipseDiagram.FitnessMeasure;
+import uk.ac.kent.elliptic.areaproptool.EllipseDiagram.FitnessMeasure;
 
 
 /**

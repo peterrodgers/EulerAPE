@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -50,8 +50,8 @@ import javax.swing.event.HyperlinkListener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import elliptic.areaproptool.EllipseDiagram.FitnessMeasure;
-import elliptic.areaproptool.EllipseDiagramOps.InitDiagType;
+import uk.ac.kent.elliptic.areaproptool.EllipseDiagram.FitnessMeasure;
+import uk.ac.kent.elliptic.areaproptool.EllipseDiagramOps.InitDiagType;
 
 
 /**

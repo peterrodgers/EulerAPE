@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -113,7 +113,7 @@ public class EllipseDiagramPanel extends JPanel  {
 		// for paint component -> for texture fill
 		try {
 			//use the line of code below for it to work when jared
-			mImage = ImageIO.read(getClass().getResourceAsStream("/elliptic/areaproptool/TextureStripes.jpg")); //do not use getResource instead of getResourceAsStream because it will not work
+			mImage = ImageIO.read(getClass().getResourceAsStream("/uk/ac/kent/elliptic/areaproptool/TextureStripes.jpg")); //do not use getResource instead of getResourceAsStream because it will not work
 			tr = new Rectangle2D.Double(0, 0.5, 11.5,11);
 		    tp = new TexturePaint(mImage, tr);
 		} catch (IOException e) {

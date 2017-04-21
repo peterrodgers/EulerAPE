@@ -33,7 +33,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.Polygon;
 import java.awt.Rectangle;
@@ -42,7 +42,7 @@ import java.awt.geom.PathIterator;
 import java.awt.geom.Rectangle2D;
 import java.util.*;
 
-import euler.comparators.*;
+import uk.ac.kent.euler.comparators.*;
 
 
 /**

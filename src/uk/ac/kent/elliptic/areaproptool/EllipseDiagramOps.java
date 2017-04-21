@@ -28,7 +28,7 @@
  
 
 
-package elliptic.areaproptool;
+package uk.ac.kent.elliptic.areaproptool;
 
 import java.awt.geom.Area;
 import java.awt.geom.Point2D;
@@ -72,10 +72,9 @@ import org.apache.batik.svggen.SVGGraphics2DIOException;
  *  	http://xmlgraphics.apache.org/batik/download.html
  */
 
-import elliptic.areaproptool.TestingWithPolygons.DiagramZoneCondition;
+import uk.ac.kent.elliptic.areaproptool.TestingWithPolygons.DiagramZoneCondition;
 
-
-
+import org.apache.batik.apps.svgbrowser.Main;
 /**
  * 
  * Operations to handle and manage Euler diagrams drawn with ellipses
